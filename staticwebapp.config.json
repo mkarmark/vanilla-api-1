@@ -4,11 +4,7 @@
     {
       "route": "/api/*",
       "allowedRoles": [ "authenticated" ]
-    },
-    {
-      "route": "/*",
-      "allowedRoles": [ "authenticated" ]
-    },
+    }
   ],
   "responseOverrides": {
     "401": {
