@@ -1,0 +1,9 @@
+{
+  "routes":
+  [
+    {
+      "route": "/api/message",
+      "allowedRoles": [ "authenticated" ]
+    }
+  ]
+}
