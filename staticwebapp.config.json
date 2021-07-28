@@ -2,8 +2,17 @@
   "routes":
   [
     {
-      "route": "/api/message",
+      "route": "/api/*",
       "allowedRoles": [ "authenticated" ]
+    },
+    {
+      "route": "/*",
+      "allowedRoles": [ "authenticated" ]
+    },
+  ],
+  "responseErrorOverrides": {
+    "401": {
+      "redirect": "/.auth/login/google?post_login_redirect_uri=.referrer"
     }
-  ]
+  }
 }
