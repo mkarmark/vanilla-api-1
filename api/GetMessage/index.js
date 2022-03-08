@@ -23,7 +23,7 @@ module.exports = async function (context, req) {
              {
         name: 'HelloWorld4',
         value: 'abc4',
-        path: '/',,
+        path: '/',
     }]
   };
 };
