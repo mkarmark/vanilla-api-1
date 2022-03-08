@@ -16,7 +16,7 @@ module.exports = async function (context, req) {
     },
              {
         name: 'HelloWorld3',
-        value: 'abc3=',
+        value: 'abc3',
         path: '/',
         sameSite: 'None',
     },
