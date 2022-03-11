@@ -1,4 +1,10 @@
 {
+  "routes": [
+    {
+      "route": "/m",
+      "redirect": "/api/message"
+    }
+  ],
   "responseOverrides": {
     "401": {
       "redirect": "/.auth/login/google?post_login_redirect_uri=.referrer"
@@ -15,5 +21,8 @@
         }
       }
     }
+  },
+  "globalHeaders": {
+    "Strict-Transport-Security": "max-age=100"
   }
 }
