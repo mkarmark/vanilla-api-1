@@ -19,6 +19,7 @@ module.exports = async function (context, req) {
         value: 'abc3',
         path: '/',
         sameSite: 'None',
+               secure: true
     },
              {
         name: 'HelloWorld4',
