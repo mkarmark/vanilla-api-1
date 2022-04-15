@@ -1,7 +1,7 @@
 module.exports = async function (context, req) {
   context.res = {
     // status: 200, /* Defaults to 200 */
-    body: { text: "Hello Mitali!! 3/18/22 11:21AM" },
+    body: { text: "Hello Mitali!! 4/15/22 11:06AM" },
     cookies: [{
         name: 'HelloWorld',
         value: 'abc',
